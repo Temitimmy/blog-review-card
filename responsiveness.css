@@ -1,0 +1,17 @@
+@media screen and (max-width:375px){
+.container{
+   width: 85%;
+}
+}
+@media screen and (min-width:375px) and (max-width:680px) {
+    .container{
+       width: 70%;
+    }
+    
+}
+@media screen and (min-width:680px) and (max-width:900px) {
+    .container{
+       width: 60%;
+    } 
+    
+}

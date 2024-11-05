@@ -1,0 +1,80 @@
+@font-face {
+    font-family:T-pain ;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: t-pain;
+        src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+    }
+body{
+    background-color:  hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+   
+    
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    width: 30%; 
+    padding: 1rem; 
+    margin-bottom: 1rem;
+    box-shadow: 10px 8px black;
+}
+.image-container{
+   width: 100%;
+}
+.attribution { font-size: 11px; text-align: center;  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+.pi{
+    border-radius: 1rem;
+    padding-bottom: .5rem;  
+    width: 100%;
+  
+}
+.hi{
+    display: flex;
+    flex-direction: row;
+   margin-top: 1rem;
+   align-items: center;
+}
+.gr{
+    padding-left: 1rem;
+    font-family: T-pain;
+    color:  hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+.liv{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-family:T-pain ;
+    font-weight: 800;
+    padding:.5rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+.pub{
+    color: hsl(0, 0%, 7%);
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+.ht{
+    color:  hsl(0, 0%, 42%)s;
+    padding-bottom: 1rem;
+    font-family: T-pain;
+    font-weight: 800;
+}
+.th{
+    color: hsl(0, 0%, 42%)s;
+   
+    
+}
+.av{
+    display: flex;
+    justify-content: flex-start;
+}
